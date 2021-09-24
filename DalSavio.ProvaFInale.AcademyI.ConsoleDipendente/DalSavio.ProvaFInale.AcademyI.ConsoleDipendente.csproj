@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DalSavio.ProvaFInale.AcademyI.AdoRepository\DalSavio.ProvaFInale.AcademyI.AdoRepository.csproj" />
+    <ProjectReference Include="..\DalSavio.ProvaFInale.AcademyI.Core\DalSavio.ProvaFInale.AcademyI.Core.csproj" />
+  </ItemGroup>
+
+</Project>

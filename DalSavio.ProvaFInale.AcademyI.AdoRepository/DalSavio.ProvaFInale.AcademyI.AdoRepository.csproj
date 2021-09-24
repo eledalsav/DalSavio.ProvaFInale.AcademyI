@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DalSavio.ProvaFInale.AcademyI.Core\DalSavio.ProvaFInale.AcademyI.Core.csproj" />
+    <ProjectReference Include="..\DalSavio.ProvaFInale.AcademyI\DalSavio.ProvaFInale.Teoria.csproj" />
+  </ItemGroup>
+
+</Project>
